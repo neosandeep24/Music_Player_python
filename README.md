@@ -1,51 +1,76 @@
-# Python Music Player
+# 🎵 Music Player in Python
 
-A simple command-line music player built using **Python** and the **Pygame Mixer** module. It can play an MP3 file, pause/resume playback, and stop the music.
+A simple music player developed using **Python**, **Tkinter**, and **Pygame**. This project includes both a Command-Line Interface (CLI) version and a Graphical User Interface (GUI) version.
 
-## Features
+---
 
-* Play an MP3 file
-* Pause and resume music
-* Stop playback
-* Easy command-line interface
+## 📸 GUI Preview
 
-## Requirements
+<p align="center">
+  <img src="assets/gui.png" alt="Music Player GUI" width="700">
+</p>
 
-* Python 3.x
-* Pygame
+---
 
-Install Pygame:
+## 📂 Project Structure
+
+```text
+Music_Player_python/
+│── assets/
+│   └── gui.png
+│
+│── Version1_cli/
+│   └── music_player.py
+│
+│── Version2_gui/
+│   └── music_player.py
+│
+└── README.md
+```
+
+## ✨ Features
+
+### Version 1 (CLI)
+
+- ▶️ Play music
+- ⏸️ Pause & Resume
+- ⏹️ Stop playback
+
+### Version 2 (GUI)
+
+- 🎵 Playlist
+- ▶️ Play
+- ⏸️ Pause
+- ▶️ Resume
+- ⏹️ Stop
+- 🖥️ Tkinter GUI
+- 📃 Displays current song
+
+## 🛠️ Requirements
+
+- Python 3.x
+- Pygame
 
 ```bash
 pip install pygame
 ```
 
-## Project Files
+## ▶️ Run
 
-```text
-music_player.py
-audiofile.mp3
-README.md
-```
-
-## How to Run
-
-1. Place your music file in the project folder and name it `audiofile.mp3`.
-2. Run the program:
+CLI Version
 
 ```bash
+cd Version1_cli
 python music_player.py
 ```
 
-## Controls
+GUI Version
 
-| Input | Action             |
-| ----- | ------------------ |
-| `1`   | Start music        |
-| `2`   | Exit program       |
-| `p`   | Pause/Resume music |
-| `s`   | Stop music         |
+```bash
+cd Version2_gui
+python music_player.py
+```
 
-## License
+## 📄 License
 
-This project is for learning and educational purposes.
+This project is open source and created for learning purposes.
