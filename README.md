@@ -7,7 +7,7 @@ A simple music player developed using **Python**, **Tkinter**, and **Pygame**. T
 ## 📸 GUI Preview
 
 <p align="center">
-  <img src="assets/gui.png" alt="Music Player GUI" width="700">
+  <img src="Version2_gui/assets/gui.png" alt="Music Player GUI" width="700">
 </p>
 
 ---
@@ -16,13 +16,13 @@ A simple music player developed using **Python**, **Tkinter**, and **Pygame**. T
 
 ```text
 Music_Player_python/
-│── assets/
-│   └── gui.png
 │
 │── Version1_cli/
 │   └── music_player.py
 │
 │── Version2_gui/
+    └── assets/
+│       └── gui.png
 │   └── music_player.py
 │
 └── README.md
